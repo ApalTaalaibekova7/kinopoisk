@@ -1,0 +1,38 @@
+.output-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.film-card {
+    width: 200px;
+    transition: transform 0.5s;
+}
+
+.film-card:hover {
+    transform: scale(1.05);
+
+}
+
+.film-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.film-poster {
+    object-fit: cover;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.rating-text {
+    font-size: 14px;
+    color: #ff6f00;
+}
